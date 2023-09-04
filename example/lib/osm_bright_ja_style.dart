@@ -2185,7 +2185,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "layout": {
           "symbol-placement": "line",
           "symbol-spacing": 350,
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu1c-regular"],
           "text-letter-spacing": 0.2,
           "text-max-width": 5,
@@ -2207,7 +2207,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "layout": {
           "symbol-placement": "line",
           "symbol-spacing": 350,
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu1c-regular"],
           "text-letter-spacing": 0.2,
           "text-max-width": 5,
@@ -2233,7 +2233,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "layout": {
           "symbol-placement": "point",
           "symbol-spacing": 350,
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu1c-regular"],
           "text-letter-spacing": 0.2,
           "text-max-width": 5,
@@ -2259,7 +2259,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "layout": {
           "symbol-placement": "point",
           "symbol-spacing": 350,
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu1c-regular"],
           "text-letter-spacing": 0.2,
           "text-max-width": 5,
@@ -2297,7 +2297,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "layout": {
           "icon-image": "{class}_11",
           "text-anchor": "top",
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-max-width": 9,
           "text-offset": [0, 0.6],
@@ -2332,7 +2332,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "layout": {
           "icon-image": "{class}_11",
           "text-anchor": "top",
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-max-width": 9,
           "text-offset": [0, 0.6],
@@ -2367,7 +2367,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "layout": {
           "icon-image": "{class}_11",
           "text-anchor": "top",
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-max-width": 9,
           "text-offset": [0, 0.6],
@@ -2402,7 +2402,7 @@ Map<String, dynamic> osmBrightJaStyle() {
           "icon-optional": false,
           "text-allow-overlap": false,
           "text-anchor": "top",
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-ignore-placement": false,
           "text-max-width": 9,
@@ -2501,7 +2501,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "filter": ["==", "class", "path"],
         "layout": {
           "symbol-placement": "line",
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-rotation-alignment": "map",
           "text-size": {
@@ -2531,7 +2531,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         ],
         "layout": {
           "symbol-placement": "line",
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-rotation-alignment": "map",
           "text-size": {
@@ -2557,7 +2557,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "filter": ["in", "class", "primary", "secondary", "tertiary", "trunk"],
         "layout": {
           "symbol-placement": "line",
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-rotation-alignment": "map",
           "text-size": {
@@ -2682,7 +2682,7 @@ Map<String, dynamic> osmBrightJaStyle() {
           "icon-image": "airport_11",
           "icon-size": 1,
           "text-anchor": "top",
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-max-width": 9,
           "text-offset": [0, 0.6],
@@ -2714,7 +2714,7 @@ Map<String, dynamic> osmBrightJaStyle() {
           "continent"
         ],
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-bold"],
           "text-letter-spacing": 0.1,
           "text-max-width": 9,
@@ -2742,7 +2742,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "source-layer": "place",
         "filter": ["==", "class", "village"],
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-max-width": 8,
           "text-size": {
@@ -2768,7 +2768,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "source-layer": "place",
         "filter": ["==", "class", "town"],
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-max-width": 8,
           "text-size": {
@@ -2798,7 +2798,7 @@ Map<String, dynamic> osmBrightJaStyle() {
           ["==", "class", "city"]
         ],
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-max-width": 8,
           "text-size": {
@@ -2831,7 +2831,7 @@ Map<String, dynamic> osmBrightJaStyle() {
           "icon-image": "star_11",
           "icon-size": 0.8,
           "text-anchor": "left",
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-max-width": 8,
           "text-offset": [0.4, 0],
@@ -2863,7 +2863,7 @@ Map<String, dynamic> osmBrightJaStyle() {
           ["!has", "iso_a2"]
         ],
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu1c-regular"],
           "text-max-width": 6.25,
           "text-size": {
@@ -2895,7 +2895,7 @@ Map<String, dynamic> osmBrightJaStyle() {
           ["has", "iso_a2"]
         ],
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-bold"],
           "text-max-width": 6.25,
           "text-size": {
@@ -2927,7 +2927,7 @@ Map<String, dynamic> osmBrightJaStyle() {
           ["has", "iso_a2"]
         ],
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-bold"],
           "text-max-width": 6.25,
           "text-size": {
@@ -2959,7 +2959,7 @@ Map<String, dynamic> osmBrightJaStyle() {
           ["has", "iso_a2"]
         ],
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-bold"],
           "text-max-width": 6.25,
           "text-size": {
@@ -2987,7 +2987,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "maxzoom": 1,
         "filter": ["==", "class", "continent"],
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-bold"],
           "text-max-width": 6.25,
           "text-size": 14,
@@ -3017,7 +3017,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "source": "hoppo",
         "source-layer": "island",
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-size": {
             "stops": [
               [10, 14],
@@ -3047,7 +3047,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "source": "takeshima",
         "source-layer": "island",
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-size": {
             "stops": [
               [10, 14],
@@ -3067,7 +3067,7 @@ Map<String, dynamic> osmBrightJaStyle() {
         "source": "takeshima",
         "source-layer": "island_poi",
         "layout": {
-          "text-field": "{name}",
+          "text-field": "{name:latin}",
           "text-font": ["migu2m-regular"],
           "text-size": {
             "stops": [

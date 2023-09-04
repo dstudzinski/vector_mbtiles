@@ -79,8 +79,8 @@ class _MyHomePageState extends State<MyHomePage> {
           child: FlutterMap(
               mapController: _mapController,
               options: MapOptions(
-                center: LatLng(35.68132332775388, 139.76712479771956),
-                zoom: 15,
+                center: LatLng(32.738470, -16.911588),
+                zoom: 10,
                 maxZoom: 18,
                 // plugins: [VectorMapTilesPlugin()],
               ),
@@ -120,5 +120,5 @@ extension OSMBrightTheme on ProvidedThemes {
 }
 
 String _basemapPath() {
-  return 'assets/example.mbtiles';
+  return 'assets/madeira.mbtiles';
 }

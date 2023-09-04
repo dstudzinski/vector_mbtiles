@@ -33,6 +33,9 @@ class MBTilesUtility {
 
     _database ??= await getDBFuture;
 
+    // Take from https://github.com/mapbox/node-mbtiles/blob/03220bc2fade2ba197ea2bab9cc44033f3a0b37e/lib/mbtiles.js#L170
+    // Flip Y coordinate because MBTiles files are TMS.
+    int y = (1 << tile.z) - 1 - tile.y;
     final resultSet = await _database!.query(
       'tiles',
       columns: ['tile_data'],
@@ -41,7 +44,7 @@ class MBTilesUtility {
       AND tile_column = ?
       AND tile_row = ?
       ''',
-      whereArgs: [tile.z, tile.x, max - tile.y - 1],
+      whereArgs: [tile.z, tile.x, y],
     );
 
     if (resultSet.length == 1) {
